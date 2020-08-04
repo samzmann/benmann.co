@@ -9,7 +9,7 @@
 @import "button.css";
 
 body {
-    @apply antialiased text-gray-900;
+    @apply antialiased font-serif text-gray-900;
 }
 
 ol {
