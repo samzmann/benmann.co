@@ -12,7 +12,7 @@ const Header = () => {
     <nav className="sticky top-0 z-50 bg-gray-800 shadow">
       {/* Desktop Nav */}
       <div className="max-w-7xl mx-auto px-2 md:px-6 lg:px-8">
-        <div className="relative flex items-center justify-between h-16">
+        <div className="relative flex items-center justify-between h-16 md:h-32">
           {/* Toggle for mobile menu*/}
           <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
             <button
@@ -41,7 +41,7 @@ const Header = () => {
             </button>
           </div>
 
-          <div className="flex-1 flex items-center justify-center md:items-stretch md:justify-between">
+          <div className="flex-1 flex flex-col items-center justify-center md:items-stretch md:justify-between">
             <HeaderLogo />
             <NavNoAuth />
           </div>

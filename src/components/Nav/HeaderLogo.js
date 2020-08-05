@@ -3,7 +3,7 @@ import React from 'react'
 
 export const HeaderLogo = () => (
   <Link to={'/'} className="flex flex-shrink-0 justify-center">
-    <h1 className="header-link ml-0 font-semibold">Side Project One</h1>
+    <h1 className="header-link ml-0 font-semibold">Ben "The Big 💩" Mann</h1>
     {/*<svg*/}
     {/*  className="w-12 h-auto"*/}
     {/*  xmlns="http://www.w3.org/2000/svg"*/}
