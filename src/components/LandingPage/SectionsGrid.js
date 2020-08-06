@@ -14,7 +14,7 @@ const Cell = ({ linkTo, children }) => (
 export const SectionsGrid = () => (
   <div className="p-8 md:p-32 grid sm:grid-cols-3 gap-4 md:gap-8">
     {NavSections.map(({ linkTo, title }) => (
-      <Cell key={title} to={linkTo}>
+      <Cell key={title} linkTo={linkTo}>
         {title}
       </Cell>
     ))}
